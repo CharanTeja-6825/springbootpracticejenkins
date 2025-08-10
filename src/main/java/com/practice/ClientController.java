@@ -8,7 +8,7 @@ public class ClientController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "<h1> This is successfully deployed through Manual Tomcat </h1>";
+		return "<h1> This is successfully deployed through Jenkins Tomcat </h1>";
 	}
 	
 	@GetMapping("/jai")
