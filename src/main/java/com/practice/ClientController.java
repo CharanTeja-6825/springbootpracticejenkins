@@ -15,4 +15,9 @@ public class ClientController {
 	public String balayya(){
 		return "<h1>Jai Balayya !!</h1>";
 	}
+	
+	@GetMapping("/update")
+	public String update() {
+		return "Build after update";
+	}
 }
